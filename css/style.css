@@ -1,4 +1,5 @@
 * {
+
     font-family: 'Dancing Script', cursive;
     font-family: 'Great Vibes', cursive;
     font-family: 'Ibarra Real Nova', serif;
@@ -21,13 +22,18 @@
 
 /* start header style */
 header {
+    max-width: 100%;
     background-image: url(../banner/banner2.png);
     height: 759px;
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
 }
 
 .header-info {
     text-align: right;
-    padding: 216px 230px 167px 700px;
+    padding: 216px 230px 167px 850px;
 }
 
 .header-title {
@@ -122,6 +128,8 @@ header {
     margin-top: 250px;
     background-image: url(../banner/banner3.png);
     height: 759px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .bonus-section {
